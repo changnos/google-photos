@@ -17,14 +17,16 @@
 export const config = {};
 
 // The OAuth client ID from the Google Developers console.
-config.oAuthClientID = 'ADD YOUR CLIENT ID';
+config.oAuthClientID =
+  "835389304145-pll2ngg9i01e00vajc7svevd555h1g6b.apps.googleusercontent.com";
 
 // The OAuth client secret from the Google Developers console.
-config.oAuthclientSecret = 'ADD YOUR CLIENT SECRET';
+config.oAuthclientSecret = "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";
 
 // The callback to use for OAuth requests. This is the URL where the app is
 // running. For testing and running it locally, use 127.0.0.1.
-config.oAuthCallbackUrl = 'http://127.0.0.1:8080/auth/google/callback';
+// config.oAuthCallbackUrl = "https://hansori.net/auth/google/callback";
+config.oAuthCallbackUrl = "http://127.0.0.1:8080/auth/google/callback";
 
 // The port where the app should listen for requests.
 config.port = 8080;
@@ -32,8 +34,8 @@ config.port = 8080;
 // The scopes to request. The app requires the photoslibrary.readonly and
 // plus.me scopes.
 config.scopes = [
-  'https://www.googleapis.com/auth/photoslibrary.readonly',
-  'profile',
+  "https://www.googleapis.com/auth/photoslibrary.readonly",
+  "profile",
 ];
 
 // The number of photos to load for search requests.
@@ -46,4 +48,4 @@ config.searchPageSize = 100;
 config.albumPageSize = 50;
 
 // The API end point to use. Do not change.
-config.apiEndpoint = 'https://photoslibrary.googleapis.com';
+config.apiEndpoint = "https://photoslibrary.googleapis.com";

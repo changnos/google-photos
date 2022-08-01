@@ -149,17 +149,19 @@ pre {
   line-height: 1;
   letter-spacing: 0;
   overflow: hidden;
-  text-transform: uppercase;
+  /* text-transform: uppercase; */
   will-change: box-shadow;
-  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1), background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1), color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
+  transition: box-shadow 0.2s cubic-bezier(0.4, 0, 1, 1),
+    background-color 0.2s cubic-bezier(0.4, 0, 0.2, 1),
+    color 0.2s cubic-bezier(0.4, 0, 0.2, 1);
   outline: none;
   cursor: pointer;
   text-decoration: none;
   text-align: left;
   line-height: 40px;
   vertical-align: middle;
-  background-color: rgba(255, 255, 255, 0.20);
-  background-image: url('/imgs/logo_photos_24dp.svg');
+  background-color: rgba(255, 255, 255, 0.2);
+  background-image: url("/imgs/logo_photos_24dp.svg");
   background-repeat: no-repeat;
   background-position: 8px 8px;
 }
@@ -169,7 +171,7 @@ pre {
 }
 
 .gp-button:hover {
-  background-color: rgba(158, 158, 158, 0.20);
+  background-color: rgba(158, 158, 158, 0.2);
 }
 
 .gp-button:focus:not(:active) {
@@ -177,7 +179,7 @@ pre {
 }
 
 .gp-button:active {
-  background-color: rgba(158, 158, 158, 0.40);
+  background-color: rgba(158, 158, 158, 0.4);
 }
 
 .gp-button.gp-button--colored {
@@ -199,7 +201,8 @@ p .gp-button {
 /*Adds the raised element to GP Photos Button */
 
 .raised {
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2), 0 1px 5px 0 rgba(0, 0, 0, 0.12);
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14), 0 3px 1px -2px rgba(0, 0, 0, 0.2),
+    0 1px 5px 0 rgba(0, 0, 0, 0.12);
 }
 
 .float-btn-label {
